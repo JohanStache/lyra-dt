@@ -1,0 +1,7 @@
+lyra_host*
+*.syx
+*.o
+*.elf
+*.bin
+__pycache__/
+build/

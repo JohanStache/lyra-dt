@@ -1,0 +1,68 @@
+# set tracks 1-4 to LYRA, then play
+wait 800
+tap #24
+press #1 150
+tap SRC 100 400
+release #1 300
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #12 100 500
+tap #25
+press #1 150
+tap SRC 100 400
+release #1 300
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #12 100 500
+tap #26
+press #1 150
+tap SRC 100 400
+release #1 300
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #12 100 500
+tap #27
+press #1 150
+tap SRC 100 400
+release #1 300
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #15 60 120
+tap #12 100 500
+snap lyra_set
+tap PLAY
+wait 3000
+snap playing
+tap STOP
+wait 500

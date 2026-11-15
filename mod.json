@@ -1,0 +1,40 @@
+{
+ "id": "lyra-dt",
+ "version": "0.5",
+ "title": "LYRA (organismic drone machine)",
+ "category": "Machines",
+ "author": "Arvid Solander (after SOMA Laboratory's LYRA-4; no SOMA code)",
+ "license": "GPL-2.0-or-later",
+ "description": "LYRA, a drone machine after SOMA's LYRA-4/8: four oscillators in two pairs (triangle to square, and DRIVE), cross-modulated (SELF, PAIR, HLFO, CHN, DLY, or the partner track: TRK), a HYPER LFO (two LFOs by SUM, AND, OR, XOR, S&H or a chaotic map) and its own delay network: FBK feeds the echoes back into the oscillators, DLY runs the loop away. The top half of SHRP, MOD, FBK, DLY and DMOD is nonlinear. Machine 90.",
+ "device": "digitakt-mk1",
+ "os": "1.53",
+ "sources": [
+  "lyra.c"
+ ],
+ "ports": {
+  "1.54": {}
+ },
+ "machines": [
+  {
+   "id": 90,
+   "descriptor": "lyra_machine"
+  }
+ ],
+ "subscribe": [
+  {
+   "event": "ev_render_voices",
+   "fn": "lyra_render",
+   "order": 21
+  }
+ ],
+ "requires": [
+  "core",
+  "machine-pages"
+ ],
+ "resources": {
+  "core": "3.0",
+  "names": [
+   "machine:90"
+  ]
+ }
+}
