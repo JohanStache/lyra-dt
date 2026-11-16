@@ -7,12 +7,12 @@ own filter, effects and AMP envelope follow it.
 
 ## Install
 
-From this repository's [Releases](../../../releases) (the `digitone-0.3` one): build a firmware with
+From [`elemods/`](elemods/) here: build a firmware with
 elekloader's `patch` tool, or in the [Mod Shop](https://elekloader.github.io/shop/) as files of your
 own, from your stock OS 1.44 and these four, unticking the shop's own core and machines (they are
 older):
 
-- `core-5.3-os1.44.elemod` and `machines-0.6-os1.44.elemod` (elekloader's, built from its source)
+- `core-5.3-os1.44.elemod` and `machines-0.6-os1.44.elemod` (elekloader's, GPL, built unmodified from its source)
 - `lyra-dn-0.3-os1.44.elemod`: LYRA and LYRA LITE
 - `lyra-fm-0.1-os1.44.elemod`: LYRA FM
 
