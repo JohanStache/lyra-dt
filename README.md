@@ -53,6 +53,14 @@ Firmware builds are not published here: they contain Elektron's OS.
 **From 0.4:** the same sound, sample for sample (checked on 121 random settings, linked tracks
 included), lighter on the CPU and a smaller file; sounds load as they were.
 
+
+## Digitone mk1 / Keys
+
+[`digitone/`](digitone/README.md) has LYRA for the Digitone mk1 and Keys (OS 1.44), in three machines:
+**LYRA** (as here, one voice a track), **LYRA LITE** (two oscillators and a 6 kHz delay, a third lighter)
+and **LYRA FM** (the Digitone's FM engine plays the oscillators; LYRA steers them and adds its delay:
+the lightest, and polyphonic). Their `.elemod` files are on the `digitone-0.3` release.
+
 ## With the Mod Shop's mods
 
 `elemods/lyra-dt-0.5-os1.54.elemod` works in the shop's builder (https://elekloader.github.io/shop/)

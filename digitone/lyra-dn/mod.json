@@ -1,0 +1,17 @@
+{
+ "id": "lyra-dn",
+ "version": "0.3",
+ "title": "LYRA (organismic drone machine)",
+ "category": "Machines",
+ "author": "Arvid Solander (after SOMA Laboratory's LYRA-4; no SOMA code)",
+ "license": "GPL-2.0-or-later",
+ "description": "LYRA for the Digitone mk1 and Keys, a drone machine after SOMA's LYRA-4/8: four oscillators in two pairs, cross-modulated (SELF, PAIR, HLFO, CHN, DLY, or the partner track: TRK), a HYPER LFO and its own delay network, through the Digitone's filter and effects. One voice per track. LYRA LITE: the same with two oscillators and a 6 kHz delay, a third lighter. Machines 90 and 91.",
+ "devices": {
+  "digitone-mk1": [
+   "1.44"
+  ]
+ },
+ "sources": [
+  "lyra.c"
+ ]
+}

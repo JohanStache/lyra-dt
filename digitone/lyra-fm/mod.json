@@ -1,0 +1,16 @@
+{
+ "id": "lyra-fm",
+ "version": "0.1",
+ "license": "GPL-2.0-or-later",
+ "title": "LYRA FM (drone machine on the FM engine)",
+ "category": "Sound",
+ "author": "Arvid Solander (after SOMA Laboratory's LYRA-4; no SOMA code)",
+ "description": "LYRA FM for the Digitone mk1 and Keys: LYRA's drone machine played by the Digitone's own FM engine. The four operators are LYRA's oscillators; LYRA adds the HYPER LFO (two LFOs by SUM, AND, OR, XOR, S&H or a chaotic map), a slow drift on each operator's ratio, its delay (TIME, DLY, DMOD) over each voice, and FBK, the echoes pushed back into the operators. Light on the CPU and polyphonic. Needs the machines mod 0.6 and core-dn1 5.3. Machine 92.",
+ "device": "digitone-mk1",
+ "os": "1.44",
+ "sources": ["lyrafm.c"],
+ "subscribe": [{"event": "ev_render_params", "fn": "lyrafm_params", "order": 60}],
+ "contribute": [{"to": "dn_machines", "order": 60, "data": "00000000", "relocs": [[0, "abs32", "sym:lyrafm_machine", 0]]}],
+ "resources": {"names": ["dnmachine:92"], "core": "5.3"},
+ "requires": ["core", "machines"]
+}
